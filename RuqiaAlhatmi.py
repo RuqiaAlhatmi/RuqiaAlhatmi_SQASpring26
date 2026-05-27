@@ -24,7 +24,9 @@ def analyze_sector(sector_code):
         2: "Healthcare",
         3: "Finance",
         4: "Education",
-        5: "Manufacturing"
+        5: "Manufacturing",
+        6: "Retail",
+        7: "Logistics"
     }
     sector_name = sector_map.get(sector_code, "Unknown Sector")
     return sector_name
