@@ -46,7 +46,7 @@ def analyze_job_posting(sector_code, experience_years, salary):
             recommendation = "Invalid experience value."
         elif experience_years < 2:
             level = "Junior"
-            if salary > 60000:
+            if salary > 65000:
                 status = "FLAGGED"
                 recommendation = "Salary unusually high for junior position. Review required."
             else:
